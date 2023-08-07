@@ -153,9 +153,9 @@ const experiences = [
     company_name: "Freelance Work",
     icon: freelance,
     iconBg: "#383E56",
-    date: "April 2023 - July 2023",
+    date: "April 2023 - May 2023",
     points: [
-      "Collaborated with various clients to understand their specific business needs and requirements for their websites.",
+      "Collaborated with clients to understand their specific business needs and requirements for their websites.",
       "Implemented front-end frameworks like Bootstrap & Tailwind CSS for visually appealing interfaces.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Delivered user-friendly and visually appealing web solutions.",
