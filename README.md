@@ -1,20 +1,17 @@
-# Build and Deploy a Fantastic 3D Portfolio Website with Three.js and React.js
-![3D Portfolio](https://i.ibb.co/9ykhLtM/Thumbnail.png)
+![image](https://github.com/yashj2000/Devfolio/assets/54151714/a1578fe8-c4f2-46dc-b39d-a3b7cd8ebcba)
 
-## Introduction
-The most impressive websites in the world use 3D graphics and animations to bring their content to life. Learn how to build your own ThreeJS 3D Developer Portfolio today! 
- 
-In this course, you'll learn the following:
-- ThreeJS - a powerful 3D graphics library for rendering and animating the 3D model
-- React Three Fiber - a popular library for creating 3D graphics with ThreeJS in React
-- TailwindCSS - a popular utility-first CSS styling framework
-- Framer Motion - the most popular library used to bring your React website to life with animations
-You'll also learn how to:
-- Load, create and customize stunning 3D models and geometries with various lights, as well as understand the 3D world with a camera and positioning of an object in space.
-- Make your code reusable and scalable using Higher Order Components (HOCs) and other industry-standard best practices
-- Implement sending emails through a form on the website
-- Ensure responsiveness across all devices and improve your site's performance using Suspense and Preload.
+![image](https://github.com/yashj2000/Devfolio/assets/54151714/44ae0404-719a-444e-94dd-f7694e71e1fe)
 
-## Want to land your dream programming job in 3 - 6 months?
-⭐ JSM Masterclass Experience - https://jsmastery.pro/masterclass
-Become a Software Engineer. Guaranteed.
+![image](https://github.com/yashj2000/Devfolio/assets/54151714/f4d6afef-e510-4039-908e-55fdd97878c0)
+
+![image](https://github.com/yashj2000/Devfolio/assets/54151714/1caffb6e-baa2-42d6-9e0e-e38e2a635214)
+
+![image](https://github.com/yashj2000/Devfolio/assets/54151714/ec646110-6497-4384-a9f3-64284324b626)
+
+![image](https://github.com/yashj2000/Devfolio/assets/54151714/ebd09645-756c-4705-bc8b-70da6b243b5a)
+
+![image](https://github.com/yashj2000/Devfolio/assets/54151714/43a3787e-5834-43d2-810c-d130268d38ad)
+
+![image](https://github.com/yashj2000/Devfolio/assets/54151714/c34c5524-5374-4d1d-a6d4-798f82732087)
+
+![image](https://github.com/yashj2000/Devfolio/assets/54151714/9a730c10-6a84-4b94-9c55-7d9320e037b2)
