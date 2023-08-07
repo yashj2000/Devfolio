@@ -25,10 +25,14 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import decurtis from "./company/decurtis.png";
+import scienceutsav from "./company/scienceutsav.png";
+import quantiphi from "./company/quantiphi.png";
+import freelance from "./company/freelance.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import newsapp from "./newsapp.png";
+import keeper from "./keeper.png";
 
 export {
   logo,
@@ -56,7 +60,11 @@ export {
   shopify,
   starbucks,
   tesla,
+  decurtis,
+  scienceutsav,
+  quantiphi,
+  freelance,
   carrent,
-  jobit,
-  tripguide,
+  newsapp,
+  keeper,
 };

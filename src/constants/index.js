@@ -1,3 +1,4 @@
+import { q } from "maath/dist/misc-7d870b3c.esm";
 import {
   mobile,
   backend,
@@ -18,10 +19,14 @@ import {
   meta,
   starbucks,
   tesla,
+  scienceutsav,
+  decurtis,
+  quantiphi,
+  freelance,
   shopify,
   carrent,
-  jobit,
-  tripguide,
+  newsapp,
+  keeper,
   threejs,
 } from "../assets";
 
@@ -42,11 +47,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -54,7 +59,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Problem Solver",
     icon: creator,
   },
 ];
@@ -80,10 +85,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -104,67 +109,69 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Intern",
+    company_name: "ScienceUtsav",
+    icon: scienceutsav,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "January 2021 - May 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked as a Python instructor to teach Python.",
+      "Enhanced the ScienceUtsav website as a web developer, technical content writer and SEO.",
+      "Managed CRM and interacted with leads, clients, and potential customers.",
+      "Participated in code reviews, documentation of code, and provided knowledge transfer and hands-on-training to new interns.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Site Reliability Engineer Intern",
+    company_name: "Decurtis International Pvt Ltd",
+    icon: decurtis,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "July 2022 - August 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Trained and worked as a Site Reliability Engineer.",
+      "Developed a website for Embarkation Monitoring and Data Analytics for passengers onboarding on a cruise using React.js, FastAPI, PostgreSQL, and Python to track cruise passengers and their activity.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "mplemented real-time data visualization using ’ant-design’ to display live updates of passenger activity and statistics on the Embarkation Monitoring and Data Analytics website.",
+      ],
+  },
+  {
+    title: "Web Developer & Content Writer",
+    company_name: "Freelance Work",
+    icon: freelance,
+    iconBg: "#383E56",
+    date: "April 2023 - July 2023",
+    points: [
+      "Collaborated with various clients to understand their specific business needs and requirements for their websites.",
+      "Implemented front-end frameworks like Bootstrap & Tailwind CSS for visually appealing interfaces.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Delivered user-friendly and visually appealing web solutions.",
+    ],
+  },
+  {
+    title: "Framework Engineer Intern",
+    company_name: "Quantiphi Analytics Solution",
+    icon: quantiphi,
+    iconBg: "#E6DEDD",
+    date: "July 2023 - Present",
+    points: [
+      "Completed training: Web development, Linux shell, Java, Python, database designing and modeling, Hadoop, GSuite applications",
+      "Gained practical experience in creating responsive and interactive web applications using modern web technologies and frameworks.",
+      "Acquired fundamental knowledge of Java, Python and Linux shell commands and operations, enhancing proficiency in working with the command-line interface.",
+      "Learned the principles and best practices of database designing and modeling, with hands-on experience in creating and managing databases.",
+      "Explored the concepts of Hadoop and its ecosystem, understanding the fundamentals of big data processing and analysis.",
+      "Actively participated in daily meetings, utilizing the opportunity to ask questions, seek clarification, and report progress on assigned tasks. Demonstrated effective communication and teamwork skills in a collaborative and supportive learning environment.",
     ],
   },
 ];
@@ -198,67 +205,68 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Expense Managament System",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
+      "• Developed a user-friendly interface with Ant-Design to visualize expenses into different categories and Tracked income and expenses to help users manage their finances. • Used MongoDB Atlas for implementing login and registration pages for user authentication and storing data, and implemented CRUD operations for expenses.",
+      
+      tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/yashj2000/Expense-Manager",
   },
   {
-    name: "Job IT",
+    name: "News App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "• Created a React-based News App for real-time access to the latest news articles. • Integrated the News API to fetch and display up-to-date articles based on selected categories. • Designed a responsive and user-friendly interface using HTML, CSS, and Bootstrap. • Enabled users to read full articles by clicking on the provided links.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "restAPI",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: newsapp,
+    source_code_link: "https://github.com/yashj2000/News-App",
   },
   {
-    name: "Trip Guide",
+    name: "Google Keep Clone",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "• Developed a Google Keep notes clone using React.js, CSS, and HTML, replicating the popular note-taking application's core features and design. • Utilized React components to create a dynamic and interactive user interface, enabling users to add, edit, and delete notes seamlessly. • Implemented a responsive layout, ensuring optimal user experience across various devices and screen sizes.",
     tags: [
       {
-        name: "nextjs",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: keeper,
+    source_code_link: "https://github.com/yashj2000/Google-Keep",
   },
 ];
 
