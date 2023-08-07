@@ -30,6 +30,9 @@ import scienceutsav from "./company/scienceutsav.png";
 import quantiphi from "./company/quantiphi.png";
 import freelance from "./company/freelance.png";
 
+import jp from "./testimony/jp.jpeg";
+import su from "./testimony/su.jpeg";
+
 import carrent from "./carrent.png";
 import newsapp from "./newsapp.png";
 import keeper from "./keeper.png";
@@ -67,4 +70,6 @@ export {
   carrent,
   newsapp,
   keeper,
+  jp,
+  su
 };
